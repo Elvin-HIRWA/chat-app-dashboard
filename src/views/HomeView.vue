@@ -1,5 +1,6 @@
 <template>
   <div>
+    <menu-bar></menu-bar>
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top d-flex align-items-center">
       <div class="container d-flex align-items-center justify-content-between">
@@ -21,16 +22,12 @@
             </li>
             <li><a class="nav-link scrollto" href="#team">Team</a></li>
             <li class="dropdown">
-              <a href="#"
-                ><span>Drop Down</span> <i class="bi bi-chevron-down"></i
-              ></a>
+              <a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
                 <li><a href="#">Drop Down 1</a></li>
                 <li class="dropdown">
-                  <a href="#"
-                    ><span>Deep Drop Down</span>
-                    <i class="bi bi-chevron-right"></i
-                  ></a>
+                  <a href="#"><span>Deep Drop Down</span>
+                    <i class="bi bi-chevron-right"></i></a>
                   <ul>
                     <li><a href="#">Deep Drop Down 1</a></li>
                     <li><a href="#">Deep Drop Down 2</a></li>
@@ -60,9 +57,7 @@
     <section id="hero" class="d-flex align-items-center">
       <div class="container">
         <div class="row gy-4">
-          <div
-            class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center"
-          >
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
             <h1>Bettter digital experience with Ninestars</h1>
             <h2>
               We are team of talented designers making websites with Bootstrap
@@ -72,11 +67,7 @@
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img">
-            <img
-              src="assets/img/hero-img.svg"
-              class="img-fluid animated"
-              alt=""
-            />
+            <img src="assets/img/hero-img.svg" class="img-fluid animated" alt="" />
           </div>
         </div>
       </div>
@@ -88,15 +79,8 @@
       <section id="about" class="about">
         <div class="container">
           <div class="row justify-content-between">
-            <div
-              class="col-lg-5 d-flex align-items-center justify-content-center about-img"
-            >
-              <img
-                src="assets/img/about-img.svg"
-                class="img-fluid"
-                alt=""
-                data-aos="zoom-in"
-              />
+            <div class="col-lg-5 d-flex align-items-center justify-content-center about-img">
+              <img src="assets/img/about-img.svg" class="img-fluid" alt="" data-aos="zoom-in" />
             </div>
             <div class="col-lg-6 pt-5 pt-lg-0">
               <h3 data-aos="fade-up">elvin dignissimos provident quasi</h3>
@@ -138,11 +122,7 @@
           </div>
 
           <div class="row">
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon-box">
                 <div class="icon"><i class="bx bxl-dribbble"></i></div>
                 <h4 class="title"><a href="">Lorem Ipsum</a></h4>
@@ -153,11 +133,7 @@
               </div>
             </div>
 
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch"
-              data-aos="zoom-in"
-              data-aos-delay="200"
-            >
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-file"></i></div>
                 <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
@@ -168,11 +144,7 @@
               </div>
             </div>
 
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch"
-              data-aos="zoom-in"
-              data-aos-delay="300"
-            >
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-tachometer"></i></div>
                 <h4 class="title"><a href="">Magni Dolores</a></h4>
@@ -183,11 +155,7 @@
               </div>
             </div>
 
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch"
-              data-aos="zoom-in"
-              data-aos-delay="400"
-            >
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-world"></i></div>
                 <h4 class="title"><a href="">Nemo Enim</a></h4>
@@ -221,29 +189,14 @@
             </div>
           </div>
 
-          <div
-            class="row portfolio-container"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
+          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-1.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="" />
                 <div class="portfolio-links">
-                  <a
-                    href="assets/img/portfolio/portfolio-1.jpg"
-                    data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"
-                    title="App 1"
-                    ><i class="bi bi-plus"></i
-                  ></a>
-                  <a href="portfolio-details.html" title="More Details"
-                    ><i class="bi bi-link"></i
-                  ></a>
+                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
                 <div class="portfolio-info">
                   <h4>App 1</h4>
@@ -254,22 +207,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-2.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="" />
                 <div class="portfolio-links">
-                  <a
-                    href="assets/img/portfolio/portfolio-2.jpg"
-                    data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"
-                    title="Web 3"
-                    ><i class="bi bi-plus"></i
-                  ></a>
-                  <a href="portfolio-details.html" title="More Details"
-                    ><i class="bi bi-link"></i
-                  ></a>
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
                 <div class="portfolio-info">
                   <h4>Web 3</h4>
@@ -280,22 +222,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-3.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="" />
                 <div class="portfolio-links">
-                  <a
-                    href="assets/img/portfolio/portfolio-3.jpg"
-                    data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"
-                    title="App 2"
-                    ><i class="bi bi-plus"></i
-                  ></a>
-                  <a href="portfolio-details.html" title="More Details"
-                    ><i class="bi bi-link"></i
-                  ></a>
+                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
                 <div class="portfolio-info">
                   <h4>App 2</h4>
@@ -306,22 +237,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
               <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-4.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="" />
                 <div class="portfolio-links">
-                  <a
-                    href="assets/img/portfolio/portfolio-4.jpg"
-                    data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"
-                    title="Card 2"
-                    ><i class="bi bi-plus"></i
-                  ></a>
-                  <a href="portfolio-details.html" title="More Details"
-                    ><i class="bi bi-link"></i
-                  ></a>
+                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
                 <div class="portfolio-info">
                   <h4>Card 2</h4>
@@ -332,22 +252,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-5.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="" />
                 <div class="portfolio-links">
-                  <a
-                    href="assets/img/portfolio/portfolio-5.jpg"
-                    data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"
-                    title="Web 2"
-                    ><i class="bi bi-plus"></i
-                  ></a>
-                  <a href="portfolio-details.html" title="More Details"
-                    ><i class="bi bi-link"></i
-                  ></a>
+                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
                 <div class="portfolio-info">
                   <h4>Web 2</h4>
@@ -358,22 +267,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-6.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="" />
                 <div class="portfolio-links">
-                  <a
-                    href="assets/img/portfolio/portfolio-6.jpg"
-                    data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"
-                    title="App 3"
-                    ><i class="bi bi-plus"></i
-                  ></a>
-                  <a href="portfolio-details.html" title="More Details"
-                    ><i class="bi bi-link"></i
-                  ></a>
+                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
                 <div class="portfolio-info">
                   <h4>App 3</h4>
@@ -384,22 +282,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
               <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-7.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="" />
                 <div class="portfolio-links">
-                  <a
-                    href="assets/img/portfolio/portfolio-7.jpg"
-                    data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"
-                    title="Card 1"
-                    ><i class="bi bi-plus"></i
-                  ></a>
-                  <a href="portfolio-details.html" title="More Details"
-                    ><i class="bi bi-link"></i
-                  ></a>
+                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
                 <div class="portfolio-info">
                   <h4>Card 1</h4>
@@ -410,22 +297,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
               <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-8.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="" />
                 <div class="portfolio-links">
-                  <a
-                    href="assets/img/portfolio/portfolio-8.jpg"
-                    data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"
-                    title="Card 3"
-                    ><i class="bi bi-plus"></i
-                  ></a>
-                  <a href="portfolio-details.html" title="More Details"
-                    ><i class="bi bi-link"></i
-                  ></a>
+                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
                 <div class="portfolio-info">
                   <h4>Card 3</h4>
@@ -436,22 +312,11 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
-                <img
-                  src="assets/img/portfolio/portfolio-9.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="" />
                 <div class="portfolio-links">
-                  <a
-                    href="assets/img/portfolio/portfolio-9.jpg"
-                    data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"
-                    title="Web 3"
-                    ><i class="bi bi-plus"></i
-                  ></a>
-                  <a href="portfolio-details.html" title="More Details"
-                    ><i class="bi bi-link"></i
-                  ></a>
+                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
                 <div class="portfolio-info">
                   <h4>Web 3</h4>
@@ -474,14 +339,9 @@
 
           <ul class="faq-list" data-aos="fade-up" data-aos-delay="100">
             <li>
-              <div
-                data-bs-toggle="collapse"
-                class="collapsed question"
-                href="#faq1"
-              >
+              <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">
                 Non consectetur a erat nam at lectus urna duis?
-                <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
+                <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
               </div>
               <div id="faq1" class="collapse" data-bs-parent=".faq-list">
                 <p>
@@ -493,14 +353,9 @@
             </li>
 
             <li>
-              <div
-                data-bs-toggle="collapse"
-                href="#faq2"
-                class="collapsed question"
-              >
+              <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">
                 Feugiat scelerisque varius morbi enim nunc faucibus a
-                pellentesque? <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
+                pellentesque? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
               </div>
               <div id="faq2" class="collapse" data-bs-parent=".faq-list">
                 <p>
@@ -514,14 +369,9 @@
             </li>
 
             <li>
-              <div
-                data-bs-toggle="collapse"
-                href="#faq3"
-                class="collapsed question"
-              >
+              <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">
                 Dolor sit amet consectetur adipiscing elit pellentesque habitant
-                morbi? <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
+                morbi? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
               </div>
               <div id="faq3" class="collapse" data-bs-parent=".faq-list">
                 <p>
@@ -536,14 +386,9 @@
             </li>
 
             <li>
-              <div
-                data-bs-toggle="collapse"
-                href="#faq4"
-                class="collapsed question"
-              >
+              <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">
                 Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
-                <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
+                <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
               </div>
               <div id="faq4" class="collapse" data-bs-parent=".faq-list">
                 <p>
@@ -557,14 +402,9 @@
             </li>
 
             <li>
-              <div
-                data-bs-toggle="collapse"
-                href="#faq5"
-                class="collapsed question"
-              >
+              <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">
                 Tempus quam pellentesque nec nam aliquam sem et tortor
-                consequat? <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
+                consequat? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
               </div>
               <div id="faq5" class="collapse" data-bs-parent=".faq-list">
                 <p>
@@ -577,15 +417,10 @@
             </li>
 
             <li>
-              <div
-                data-bs-toggle="collapse"
-                href="#faq6"
-                class="collapsed question"
-              >
+              <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">
                 Tortor vitae purus faucibus ornare. Varius vel pharetra vel
                 turpis nunc eget lorem dolor?
-                <i class="bi bi-chevron-down icon-show"></i
-                ><i class="bi bi-chevron-up icon-close"></i>
+                <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
               </div>
               <div id="faq6" class="collapse" data-bs-parent=".faq-list">
                 <p>
@@ -613,17 +448,9 @@
           </div>
 
           <div class="row">
-            <div
-              class="col-xl-3 col-lg-4 col-md-6"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
+            <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
               <div class="member">
-                <img
-                  src="assets/img/team/team-1.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="" />
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>Walter White</h4>
@@ -639,17 +466,9 @@
               </div>
             </div>
 
-            <div
-              class="col-xl-3 col-lg-4 col-md-6"
-              data-aos="zoom-in"
-              data-aos-delay="200"
-            >
+            <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
               <div class="member">
-                <img
-                  src="assets/img/team/team-2.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="" />
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>Sarah Jhonson</h4>
@@ -665,17 +484,9 @@
               </div>
             </div>
 
-            <div
-              class="col-xl-3 col-lg-4 col-md-6"
-              data-aos="zoom-in"
-              data-aos-delay="300"
-            >
+            <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
               <div class="member">
-                <img
-                  src="assets/img/team/team-3.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="" />
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>William Anderson</h4>
@@ -691,17 +502,9 @@
               </div>
             </div>
 
-            <div
-              class="col-xl-3 col-lg-4 col-md-6"
-              data-aos="zoom-in"
-              data-aos-delay="400"
-            >
+            <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
               <div class="member">
-                <img
-                  src="assets/img/team/team-4.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="" />
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>Amanda Jepson</h4>
@@ -729,67 +532,31 @@
             <p>They trusted us</p>
           </div>
 
-          <div
-            class="clients-slider swiper"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
+          <div class="clients-slider swiper" data-aos="fade-up" data-aos-delay="100">
             <div class="swiper-wrapper align-items-center">
               <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-1.png"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="assets/img/clients/client-1.png" class="img-fluid" alt="" />
               </div>
               <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-2.png"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="assets/img/clients/client-2.png" class="img-fluid" alt="" />
               </div>
               <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-3.png"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="assets/img/clients/client-3.png" class="img-fluid" alt="" />
               </div>
               <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-4.png"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="assets/img/clients/client-4.png" class="img-fluid" alt="" />
               </div>
               <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-5.png"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="assets/img/clients/client-5.png" class="img-fluid" alt="" />
               </div>
               <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-6.png"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="assets/img/clients/client-6.png" class="img-fluid" alt="" />
               </div>
               <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-7.png"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="assets/img/clients/client-7.png" class="img-fluid" alt="" />
               </div>
               <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-8.png"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="assets/img/clients/client-8.png" class="img-fluid" alt="" />
               </div>
             </div>
             <div class="swiper-pagination"></div>
@@ -807,11 +574,7 @@
           </div>
 
           <div class="row">
-            <div
-              class="col-lg-5 d-flex align-items-stretch"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
+            <div class="col-lg-5 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
               <div class="info">
                 <div class="address">
                   <i class="bi bi-geo-alt"></i>
@@ -833,67 +596,29 @@
 
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-                  frameborder="0"
-                  style="border: 0; width: 100%; height: 290px"
-                  allowfullscreen
-                ></iframe>
+                  frameborder="0" style="border: 0; width: 100%; height: 290px" allowfullscreen></iframe>
               </div>
             </div>
 
-            <div
-              class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <form
-                action="forms/contact.php"
-                method="post"
-                role="form"
-                class="php-email-form"
-              >
+            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                 <div class="row">
                   <div class="form-group col-md-6">
                     <label for="name">Your Name</label>
-                    <input
-                      type="text"
-                      name="name"
-                      class="form-control"
-                      id="name"
-                      placeholder="Your Name"
-                      required
-                    />
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required />
                   </div>
                   <div class="form-group col-md-6 mt-3 mt-md-0">
                     <label for="name">Your Email</label>
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      id="email"
-                      placeholder="Your Email"
-                      required
-                    />
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required />
                   </div>
                 </div>
                 <div class="form-group mt-3">
                   <label for="name">Subject</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="subject"
-                    id="subject"
-                    placeholder="Subject"
-                    required
-                  />
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required />
                 </div>
                 <div class="form-group mt-3">
                   <label for="name">Message</label>
-                  <textarea
-                    class="form-control"
-                    name="message"
-                    rows="10"
-                    required
-                  ></textarea>
+                  <textarea class="form-control" name="message" rows="10" required></textarea>
                 </div>
                 <div class="my-3">
                   <div class="loading">Loading</div>
@@ -926,10 +651,7 @@
                 magna
               </p>
               <form action="" method="post">
-                <input type="email" name="email" /><input
-                  type="submit"
-                  value="Subscribe"
-                />
+                <input type="email" name="email" /><input type="submit" value="Subscribe" />
               </form>
             </div>
           </div>
@@ -1006,9 +728,7 @@
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"
-                  ><i class="bx bxl-instagram"></i
-                ></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
                 <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
                 <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
               </div>
@@ -1019,8 +739,7 @@
 
       <div class="container py-4">
         <div class="copyright">
-          &copy; Copyright <strong><span>Ninestars</span></strong
-          >. All Rights Reserved
+          &copy; Copyright <strong><span>Ninestars</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
@@ -1033,19 +752,17 @@
     </footer>
     <!-- End Footer -->
 
-    <a
-      href="#"
-      class="back-to-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
   </div>
 </template>
 
 <script>
-
+import MenuBar from '../components/HomePage/MenuBar.vue'
 export default {
   name: 'HomeView',
   components: {
+    MenuBar
   }
 }
 </script>
